@@ -33,10 +33,11 @@ for(let i = 1; i <= 5; i++ ){
             btn.textContent = 'Lighten';
             overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
     
-        }else if(btn.getAttribute('class') == 'light'){
-            btn.setAttribute('class', 'dark');
+        }else{
+            
+            btn.setAttribute('class','dark');
             btn.textContent = 'Darken';
-            overlay.style.backgroundColor == 'rgba(0,0,0,0)';
+            overlay.style.backgroundColor = 'rgba(0,0,0,0)';
 
         
         }
